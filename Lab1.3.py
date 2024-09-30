@@ -1,11 +1,12 @@
 # Import NumPy and pandas
-# Your code here
+import numpy as np
+import pandas as pd
 
 # Import the LinearRegression function from sklearn.linear_model
-# Your code here
+from sklearn.linear_model import LinearRegression
 
 # Read in the csv file homes.csv
-homes = pd.# Your code here
+homes = pd.read_csv('dataset/homes.csv')
 
 # Store relevant columns as variables
 y = homes['Price']
